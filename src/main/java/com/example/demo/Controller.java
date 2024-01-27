@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @GetMapping("/jrf")
-    public String getSpringNative() throws InterruptedException {
+    public String getSpringNative(){
 
 
        return "Hola Prueba Spring Native y JRF";
